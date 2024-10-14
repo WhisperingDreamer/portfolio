@@ -1,0 +1,29 @@
+.section {
+  margin: 3vh 7vh auto;
+}
+.section .container-header {
+  display: flex;
+}
+.section .container-header .photo {
+  width: 200px;
+  border: 1px solid;
+  padding: 0px;
+  margin: 3vh;
+}
+.section .container-header .quote {
+  margin: 3vh;
+  font-size: 49px;
+}
+.section .container-header .quote:before {
+  content: '"';
+}
+.section .container-header .quote:after {
+  content: '"';
+}
+.section .container-main {
+  padding: 2vh;
+  border-top: 1px solid;
+  font-size: 22px;
+}
+
+/*# sourceMappingURL=style.css.map */
