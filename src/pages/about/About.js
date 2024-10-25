@@ -9,7 +9,7 @@ function About() {
                     <img src={me} alt='Ava' />
                 </div>
                 <div className='quote'>
-                    Started developing to make dreams come true
+                    <em>Started developing to make dreams come true</em>
                 </div>
             </div>
             <main className='container-main'>

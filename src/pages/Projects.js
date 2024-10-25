@@ -1,4 +1,4 @@
-// import project01 from './../img/projects/01.jpg'
+import project01 from './../img/projects/01.jpg'
 // import project02 from './../img/projects/02.jpg'
 // import project03 from './../img/projects/03.jpg'
 // import project04 from './../img/projects/04.jpg'
@@ -11,17 +11,14 @@ function Projects() {
         <div className="container">
             <h2 className="title-1">Projects</h2>
             <ul className="projects">
-
-                <div className="title-3">
-                    <h3>Still not done yet</h3>
-                </div>
-
-                {/* <li className="project">
-                    <a href="./project-page.html">
+                <li className="project">
+                    {/* <a href="./project-page.html"> */}
+                    <a href='https://github.com/WhisperingDreamer/pomodoro-timer?tab=readme-ov-file'>
                         <img src={project01} alt="Project img" className="project__img" />
-                        <h3 className="project__title">Gaming streaming portal</h3>
+                        <h3 className="project__title">Pomodoro timer</h3>
                     </a>
-                </li> */}
+                </li>
+
                 {/* <li className="project">
                     <a href="./project-page.html">
                         <img src={project02} alt="Project img" className="project__img" />

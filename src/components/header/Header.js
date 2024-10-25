@@ -11,7 +11,8 @@ function Header() {
                 <div className="header__text">
                     <p>with passion for learning and creating.</p>
                 </div>
-                <a href="files/CV.doc" className="btn">Download CV</a>
+                <a href="files/CV.doc" className="btn" download>Download CV</a>
+                {/* <Link to="/files/myfile.pdf" target="_blank" download>Download</Link> */}
             </div>
         </header>
     )
